@@ -1,2 +1,5 @@
 # trees
-Implementation of the data structure as a binary tree with the trivial property that every node is greater than its left child and smaller than its right child.
+
+trees.h - interface - makes the user aware of all the functions available and the argument pattern of each.
+trees.c - implementation - implements all the functions mentioned in the interface. The implementation has been written separately because           the user is interested in the outcome, not the process.
+main.c - a sample usage of all the functions.
